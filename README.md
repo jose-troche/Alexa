@@ -8,7 +8,7 @@
 
   * Fill the information of the registration wizard.
 
-* Create an Alexa skill
+* Create an Alexa Skill
   * Go to the Alexa Console https://developer.amazon.com/alexa/console/ask 
   * Click on the **Create Skill** button
   * Type **First Skill** as skill name and click **Next**
@@ -31,6 +31,11 @@
   * Select **Blueprints**
   * Type the keyword **alexa** in the blueprints filter box
   * Select the **alexa-skill-kit-sdk-factskill** blueprint
+  * Type a unique **Name** like `alexaSkillTeam777`
+  * For the **Role** dropdown, select the **Choose and existing role** option
+  * For the **Existing Role** dropdown, select the **firstAlexaSkillRole** role option
+  * Scroll down and click the **Create function** button
+  
 
-  * In the model paste the json found here https://raw.githubusercontent.com/alexa/skill-sample-nodejs-fact/en-US/InteractionModel.json (Not the whole document, but just the GetNewFactIntent node).
+* Update the Endpoint of the Alexa Skill
   * As endpoint use the ARN of the lambda function created below
