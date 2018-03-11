@@ -35,6 +35,11 @@
   * For the **Role** dropdown, select the **Choose and existing role** option
   * For the **Existing Role** dropdown, select the **firstAlexaSkillRole** role option
   * Scroll down and click the **Create function** button
+  * On the left, under **Add triggers** select the **Alexa Skills Kit** trigger
+  * Scroll down and paste the **Skill ID** copied in previous section (e.g. `amzn1.ask.skill.5a1e8977-e4f4-4a74-ba4c-5badaf4ac849`)
+  * CLick the **Add** button
+  * Scroll up and click the orange **Save** button
+  * Copy the ARN on top of the orange **Save** button (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)
   
 
 * Update the Endpoint of the Alexa Skill
