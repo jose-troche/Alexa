@@ -20,7 +20,7 @@
   * Click on the **View Skill ID** link
   * Copy the **Skill ID** (e.g. `amzn1.ask.skill.5a1e8977-e4f4-4a74-ba4c-5badaf4ac849`) from the popup. 
   
-* Create a Lambda Function
+* Create the corresponding Lambda Function
   * Open a new browser tab
   * Go to https://jupiter1.signin.aws.amazon.com/console
   * Sign in with your **user name** (e.g. `team777`) and password
@@ -31,7 +31,7 @@
   * Select **Blueprints**
   * Type the keyword **alexa** in the blueprints filter box
   * Select the **alexa-skill-kit-sdk-factskill** blueprint
-  * Type a unique **Name** like `alexaSkillTeam777`
+  * Type a *unique* **Name** like `alexaSkillTeam777`. Make sure the **Name** is unique enough, since you will see later the functions of all teams and you have to be able to recognize yours. Be careful *not* to edit another's team Lambda function by mistake.
   * For the **Role** dropdown, select the **Choose and existing role** option
   * For the **Existing Role** dropdown, select the **firstAlexaSkillRole** role option
   * Scroll down and click the **Create function** button
@@ -54,7 +54,7 @@
   * Type **space facts** in the **Alexa Simulator** text box and press the [ENTER] key
   * You should hear Alexa reading an space fact that comes from the Lambda function
   
-*Congratulations!!!* You just created your first Alexa skill
+*Congratulations!!!* You just created your first fully functional Alexa skill
 
 # Further Steps
 * Testing the Lambda function
