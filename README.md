@@ -68,4 +68,4 @@
   
 * Examine the Lambda function code. Modify the code of the Lambda function by adding a new space fact. **Save** and **Test**
 * Go back to the Alexa Console and try to add a new Intent in the skill model (hint: you have to rebuilt the model and also create a corresponding intent in the Lambda function)
-* [Set Up Your Echo Dot]()
+* [Set Up Your Echo Dot](https://www.amazon.com/gp/help/customer/display.html/ref=aw?ie=UTF8&nodeId=201994280)
