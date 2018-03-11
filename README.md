@@ -23,7 +23,14 @@
 * Create a Lambda Function
   * Open a new browser tab
   * Go to https://jupiter1.signin.aws.amazon.com/console
-  * Type your user (e.g. `
+  * Sign in with your **user name** (e.g. `team777`) and password
+  * Make sure that the upper right menu dropdown for region has **US East (N. Virginia)** selected
+  * Type **Lambda** in the **AWS Services** box
+  * Select the **Lambda** service
+  * Click the **Create a function** button
+  * Select **Blueprints**
+  * Type the keyword **alexa** in the blueprints filter box
+  * Select the **alexa-skill-kit-sdk-factskill** blueprint
 
   * In the model paste the json found here https://raw.githubusercontent.com/alexa/skill-sample-nodejs-fact/en-US/InteractionModel.json (Not the whole document, but just the GetNewFactIntent node).
   * As endpoint use the ARN of the lambda function created below
