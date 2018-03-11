@@ -37,7 +37,7 @@
   * Scroll down and click the **Create function** button
   * On the left, under **Add triggers** select the **Alexa Skills Kit** trigger
   * Scroll down and paste the **Skill ID** copied in previous section (e.g. `amzn1.ask.skill.5a1e8977-e4f4-4a74-ba4c-5badaf4ac849`)
-  * CLick the **Add** button
+  * Click the **Add** button
   * Scroll up and click the orange **Save** button
   * Copy the **ARN** on top of the orange **Save** button (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)
   
@@ -47,13 +47,25 @@
   * Click the **Edit** button
   * Select **Endpoint** on the left bar
   * Select the **AWS Lambda ARN** radio button
-  * Paste the copied Lambda **ARN** (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)in the **Default Region** box
+  * Paste the copied Lambda **ARN** (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`) in the **Default Region** box
   * Click the **Save Endpoints** button
   * Click the **Test** link on the top menu bar
   * Enable testing by turning on the switch
   * Type **space facts** in the **Alexa Simulator** text box and press the [ENTER] key
   * You should hear Alexa reading an space fact that comes from the Lambda function
   
-Congratulations!!! You just created your first Alexa skill
+*Congratulations!!!* You just created your first Alexa skill
 
 # Further Steps
+* Testing the Lambda function
+  * Copy the json content of the **JSON Input** panel in the Alexa Console
+  * Go back the Lambda function tab
+  * Select the **Configure test events** option from the dropdown to the left of the **Test** button (upper right section)
+  * Paste the json content into the editor
+  * Type a **Name** and then click the **Save** button
+  * Click the **Test** button (upper right section)
+  * Review the **Details** of the Execution results
+  
+* Examine the Lambda function code. Modify the code of the Lambda function by adding a new space fact. **Save** and **Test**
+* Go back to the Alexa Console and try to add a new Intent in the skill model (hint: you have to rebuilt the model and also create a corresponding intent in the Lambda function)
+* [Set Up Your Echo Dot]()
