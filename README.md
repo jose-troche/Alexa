@@ -14,7 +14,7 @@
   * Type **First Skill** as skill name and click **Next**
   * Select **Custom** and click the **Create skill** button
   * Click **JSON Editor** on the left bar
-  * Paste the contents of facts-skill-interaction-model.json in the editor
+  * Paste the contents of [facts-skill-interaction-model.json](https://raw.githubusercontent.com/jose-troche/alexa/master/facts-skill-interaction-model.json) in the editor
   * Click the **Build Model** button (it will take a few minutes to build the model)
   * Go back to the Alexa Console https://developer.amazon.com/alexa/console/ask
   * Click on the **View Skill ID** link
