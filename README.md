@@ -39,8 +39,21 @@
   * Scroll down and paste the **Skill ID** copied in previous section (e.g. `amzn1.ask.skill.5a1e8977-e4f4-4a74-ba4c-5badaf4ac849`)
   * CLick the **Add** button
   * Scroll up and click the orange **Save** button
-  * Copy the ARN on top of the orange **Save** button (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)
+  * Copy the **ARN** on top of the orange **Save** button (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)
   
 
 * Update the Endpoint of the Alexa Skill
-  * As endpoint use the ARN of the lambda function created below
+  * Go back to the Alexa Console tab (or create a new one and go to https://developer.amazon.com/alexa/console/ask)
+  * Click the **Edit** button
+  * Select **Endpoint** on the left bar
+  * Select the **AWS Lambda ARN** radio button
+  * Paste the copied Lambda **ARN** (e.g. `arn:aws:lambda:us-east-1:735534501522:function:alexaSkillTeam777`)in the **Default Region** box
+  * Click the **Save Endpoints** button
+  * Click the **Test** link on the top menu bar
+  * Enable testing by turning on the switch
+  * Type **space facts** in the **Alexa Simulator** text box and press the [ENTER] key
+  * You should hear Alexa reading an space fact that comes from the Lambda function
+  
+Congratulations!!! You just created your first Alexa skill
+
+# Further Steps
