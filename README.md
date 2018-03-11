@@ -16,6 +16,14 @@
   * Click **JSON Editor** on the left bar
   * Paste the contents of facts-skill-interaction-model.json in the editor
   * Click the **Build Model** button (it will take a few minutes to build the model)
+  * Go back to the Alexa Console https://developer.amazon.com/alexa/console/ask
+  * Click on the **View Skill ID** link
+  * Copy the **Skill ID** (e.g. `amzn1.ask.skill.5a1e8977-e4f4-4a74-ba4c-5badaf4ac849`) from the popup. 
+  
+* Create a Lambda Function
+  * Open a new browser tab
+  * Go to https://jupiter1.signin.aws.amazon.com/console
+  * Type your user (e.g. `
 
   * In the model paste the json found here https://raw.githubusercontent.com/alexa/skill-sample-nodejs-fact/en-US/InteractionModel.json (Not the whole document, but just the GetNewFactIntent node).
   * As endpoint use the ARN of the lambda function created below
