@@ -29,7 +29,7 @@
   * Click the **Create a function** button
   * Select **Blueprints**
   * Type the keyword **alexa** in the blueprints filter box
-  * Select the **alexa-skill-kit-sdk-factskill** blueprint
+  * Click the **alexa-skill-kit-sdk-factskill** link blueprint
   * Type a *unique* **Name** like `alexaSkillTeam777`. Make sure the **Name** is unique enough, since you will see later the functions of all teams and you have to be able to recognize yours. Be careful *not* to edit another's team Lambda function by mistake.
   * For the **Role** dropdown, select the **Choose an existing role** option
   * For the **Existing Role** dropdown, select the **firstAlexaSkillRole** role option
@@ -67,5 +67,6 @@
   
 * Examine the Lambda function code. Modify the code of the Lambda function by adding a new space fact. **Save** and **Test**
 * More examples and ideas: https://github.com/alexa
+* More information on [How to build Alexa Skills](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
 * Go back to the Alexa Console and try to add a new Intent in the skill model (hint: you have to rebuilt the model and also create a corresponding intent in the Lambda function)
 * [Set Up Your Echo Dot](https://www.amazon.com/gp/help/customer/display.html/ref=aw?ie=UTF8&nodeId=201994280)
