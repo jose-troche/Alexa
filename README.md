@@ -22,7 +22,7 @@
 * Create the corresponding Lambda Function
   * Open a new browser tab
   * Go to https://echo1.signin.aws.amazon.com/console
-  * Sign in with your **user name** (e.g. `team777`) and password
+  * Sign in with your assigned **user name** (e.g. `team777`) and password (ignore the expiration notice). Note that the **user name** is assigned to you. It is *not* the email you used to create the amazon.com account
   * Make sure that the upper right menu dropdown for region has **US East (N. Virginia)** selected
   * Type **Lambda** in the **AWS Services** box
   * Select the **Lambda** service
@@ -31,7 +31,7 @@
   * Type the keyword **alexa** in the blueprints filter box
   * Select the **alexa-skill-kit-sdk-factskill** blueprint
   * Type a *unique* **Name** like `alexaSkillTeam777`. Make sure the **Name** is unique enough, since you will see later the functions of all teams and you have to be able to recognize yours. Be careful *not* to edit another's team Lambda function by mistake.
-  * For the **Role** dropdown, select the **Choose and existing role** option
+  * For the **Role** dropdown, select the **Choose an existing role** option
   * For the **Existing Role** dropdown, select the **firstAlexaSkillRole** role option
   * Scroll down and click the **Create function** button
   * On the left, under **Add triggers** select the **Alexa Skills Kit** trigger
