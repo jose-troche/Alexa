@@ -1,0 +1,66 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "command",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "take off",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "land",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "go up",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "go down",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "CommandIntent",
+        "samples": [
+          "{command}"
+        ],
+        "slots": [
+          {
+            "name": "command",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "invocationName": "rocket pilot"
+  }
+}
